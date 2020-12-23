@@ -1,0 +1,42 @@
+/*  pink color style    */
+.fa-music,
+.preloader .loader i,
+.btn-1:hover,
+.people-section .people-item-inner .social-links a i,
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.story-section .story-text h3,
+.couple-section .social-links a i,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+body.dark .header .nav ul li a.active,
+.header .nav ul li a.active,
+body.dark .header .nav ul li a:hover,
+.header .nav ul li a:hover {
+  color: #fb839e;
+}
+
+.fa-music,
+.btn-1,
+.people-section .people-item-inner .social-links a i,
+.event-section .event-item-inner:before,
+.couple-section .social-links a i,
+.couple-section .couple img {
+  border-color: #fb839e;
+}
+
+.preloader .loader:before {
+  border-right-color: #fb839e;
+}
+
+.fa-music.pause:after,
+.setting .s-toggle-btn,
+.btn-1,
+.rsvp-section,
+.people-section .people-item-inner .social-links a:hover i,
+body.dark .people-section .filter-btn.active,
+.people-section .filter-btn.active,
+.event-section,
+.couple-section .social-links a:hover i {
+  background-color: #fb839e;
+}

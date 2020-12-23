@@ -1,0 +1,62 @@
+.setting {
+  position: fixed;
+  right: 0;
+  background-color: #ffffff;
+  max-width: 200px;
+  width: 100%;
+  padding: 15px;
+  top: 100px;
+  z-index: 999;
+  border-radius: 0 0 0 5px;
+  transition: all 0.3s ease;
+  transform: translateX(100%);
+}
+.setting.open {
+  transform: translateX(0%);
+}
+.setting .s-toggle-btn {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  color: #ffffff;
+  left: -40px;
+  top: 0;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+}
+.setting h4 {
+  font-size: 16px;
+  color: #555555;
+  font-weight: 500;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 5px;
+}
+.setting .colors span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-top: 6px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.setting label {
+  font-size: 16px;
+  color: #555555;
+  margin-right: 5px;
+  display: inline-block;
+  margin-top: 5px;
+  cursor: pointer;
+}
+body.dark .setting {
+  background-color: #222222;
+}
+body.dark .setting h4 {
+  color: #ffffff;
+  border-color: #333333;
+}
+body.dark .setting label {
+  color: #bbbbbb;
+}
